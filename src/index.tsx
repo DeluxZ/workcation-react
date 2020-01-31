@@ -7,10 +7,6 @@ import App from "./App";
 import Dashboard from "./Dashboard";
 import * as serviceWorker from "./serviceWorker";
 
-if (process.env.NODE_ENV === "development") {
-  makeServer();
-}
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
